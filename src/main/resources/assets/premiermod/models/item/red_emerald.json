@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
-  "texture": {
-    "layers0": "premiermod:item/red_emerald"
+  "textures": {
+    "layer0": "premiermod:item/red_emerald"
   }
 }
