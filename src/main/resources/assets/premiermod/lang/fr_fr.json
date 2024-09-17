@@ -1,4 +1,6 @@
 {
   "item.premiermod.red_emerald": "émeraude rouge",
-  "item.premiermod.red_emerald": "fragment d'émeraude rouge"
+  "item.premiermod.red_emerald": "fragment d'émeraude rouge",
+
+  "block.premiermod.red_emerald_block": "bloc d'émeraude rouge"
 }

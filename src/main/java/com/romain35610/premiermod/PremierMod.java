@@ -1,6 +1,7 @@
 package com.romain35610.premiermod;
 
 import com.mojang.logging.LogUtils;
+import com.romain35610.premiermod.block.ModBlocks;
 import com.romain35610.premiermod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,6 +33,7 @@ public class PremierMod {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -48,6 +50,9 @@ public class PremierMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RED_EMERALD);
             event.accept(ModItems.RED_EMERALD_SHARD);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.RED_EMERALD_BLOCK);
         }
     }
 

@@ -1,4 +1,6 @@
 {
   "item.premiermod.red_emerald": "Red Emerald",
-  "item.premiermod.red_emerald_shard": "Red Emerald Shard"
+  "item.premiermod.red_emerald_shard": "Shard of Red Emerald ",
+
+  "block.premiermod.red_emerald_block": "Block of Red Emerald "
 }
