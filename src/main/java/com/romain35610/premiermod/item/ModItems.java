@@ -14,6 +14,9 @@ public class ModItems {
     public static final RegistryObject<Item> RED_EMERALD = ITEMS.register("red_emerald",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> RED_EMERALD_SHARD =ITEMS.register("red_emerald_shard",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

@@ -47,6 +47,7 @@ public class PremierMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.RED_EMERALD);
+            event.accept(ModItems.RED_EMERALD_SHARD);
         }
     }
 
